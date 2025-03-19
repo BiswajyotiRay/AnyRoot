@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Ensure required commands are installed
 command -v wget >/dev/null 2>&1 || { echo "wget not found, please install it first"; exit 1; }
 command -v unzip >/dev/null 2>&1 || { echo "unzip not found, please install it first"; exit 1; }
